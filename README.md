@@ -1,15 +1,15 @@
 # 🎮 Stadia X - Native Bridge
 
-Stadia X is a low-latency, native bridge that allows you to use your Google Stadia controller via Bluetooth on Windows, complete with **Rumble Support** and a massive **34-key Macro Shortcut System**.
+Low-latency, native bridge to use your Google Stadia controller via Bluetooth on Windows, with **Rumble Support** and a **34-key Macro Shortcut System**.
 
-Because Windows natively struggles with the Stadia controller's Bluetooth implementation, this tool seamlessly passes your Bluetooth adapter into a lightweight, custom-built Linux subsystem (WSL2), connects to the controller instantly, and bridges the inputs back to Windows as a flawless Xbox 360 controller.
+Passes your Bluetooth adapter into a lightweight, custom-built Linux subsystem (WSL2), connects to the controller instantly, and bridges the inputs back to Windows as a flawless Xbox 360 controller.
 
 ## ✨ Features
-* **Zero-Configuration:** Automated setup installs everything you need.
-* **Full Rumble Support:** Force feedback works flawlessly.
-* **Universal Game Compatibility:** Emulates a standard Xbox 360 controller via ViGEmBus.
-* **Ultimate Macro Pad:** Hold the Assistant or Capture buttons to turn the rest of your controller into a media remote or keyboard shortcut machine!
-* **Auto-Restore:** Automatically returns your Bluetooth adapter to Windows when you close the app.
+Automated setup installs everything you need.
+Force feedback works.
+Emulates a standard Xbox 360 controller via ViGEmBus.
+Hold the Assistant or Capture buttons to turn the rest of your controller into a keyboard shortcut machine
+Automatically returns your Bluetooth adapter to Windows when you close the app or run the Stop Script manually.
 
 ---
 
