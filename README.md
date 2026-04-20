@@ -58,6 +58,20 @@ You need to enable hardware virtualization in your BIOS. Look for `VT-x` (Intel)
 **3. Script asks for my Bluetooth BUSID manually**
 Sometimes Windows names your Bluetooth adapter strangely. If it asks for your BUSID, look at the list printed on the screen, find the item that looks like your Bluetooth adapter (e.g., "Intel Wireless Bluetooth"), and type the number next to it (e.g., `1-14`).
 
+**4. Start script fails to load or controller won't connect
+Occasionally, the start script might fail due to firewall quirks, system inconsistencies, or controller timing issues. If this happens, simply run Stop-Stadia.bat to ensure you are starting from a clean slate, and then run Start-Stadia.bat again.
+
+**5. Bluetooth doesn't return to Windows after closing/stopping
+If your Bluetooth adapter isn't restored to Windows after running the Stop script, try running Stop-Stadia.bat a second time. If it is still missing, follow these steps (Note: This is a rare Windows-side glitch, but an automated workaround is planned for the future):
+
+    Open Device Manager.
+
+    Expand Universal Serial Bus Controllers.
+
+    Right-click on USBIP Shared Device and select Uninstall device. (⚠️ Important: Do NOT check the box that says "Attempt to remove the driver for this device").
+
+    Click the Scan for hardware changes button (the computer monitor icon) at the top of the Device Manager window. Your Bluetooth should now be restored.
+
 ## 🏆 Credits & Acknowledgements
 * **[jocxfin]**: Original author of the `stadia-w-rumble-windows` proof-of-concept, which provided the foundational C++ UDP bridge and ViGEm implementation this project was built upon.
 * **[Nefarius]**: Creator of the ViGEmBus driver, making Xbox 360 controller emulation possible on Windows.
