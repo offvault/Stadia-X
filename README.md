@@ -1,4 +1,4 @@
-# 🎮 Stadia X - Native Bridge
+# 🎮 Native Controller Bridge
 
 Low-latency, native bridge to use your Google Stadia controller via Bluetooth on Windows, with **Rumble Support** and a **34-key Macro Shortcut System**.
 
