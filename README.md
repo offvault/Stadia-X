@@ -2,7 +2,7 @@
 
 Low-latency, native bridge to use your Google Stadia controller via Bluetooth on Windows, with **Rumble Support** and a **34-key Macro Shortcut System**.
 
-Passes your Bluetooth adapter into a lightweight, custom-built Linux subsystem (WSL2), connects to the controller instantly, and bridges the inputs back to Windows as a flawless Xbox 360 controller.
+Passes your Bluetooth adapter into a lightweight, custom-built Linux subsystem (WSL2), connects to the controller instantly, and bridges the inputs back to Windows as an Xbox 360 controller.
 
 ## ✨ Features
 Automated setup installs everything you need.
